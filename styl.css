@@ -1,0 +1,27 @@
+/*Marginesy na stronie*/
+body {padding: 0; margin: 0;}
+/*Góra*/
+header { background: linear-gradient(to bottom, #e8f0f9 0%, #ffffff 100%) ; width:100%; height: 10%; margin: 0 auto; }
+/*Lina między górą a środkiem*/ 
+header {background:; border-bottom: 1px solid black;}
+/*Srodek lewa*/
+section { background: linear-gradient(to bottom, #ffffff 0%, #e8f0f9 100%); width:90%; height: 85%; float: left; margin: -1; margin-top: 1; margin-bottom: 1;  }
+/*Srodek prawa + na końcu linia pomiędzy*/
+aside {background:linear-gradient(to bottom, #ffffff 0%, #e8f0f9 100%) ; width:10%;  height: 85%; float: right; list-style-type: none; border-left: 1px solid black; }
+/*Linia między dołem a środkiem*/
+footer {background: #ffffff; border-top: 1px solid black;}
+/*Dół*/
+footer { background:linear-gradient(to bottom, #e8f0f9 0%, #ffffff 100%) ; width:100%; height: 5%; clear: both; }
+/*Napisy*/
+p { font: 48px times New Roman, serif; color: black; text-align: center; position: relative; top: 15px; }
+pl { font: 28px Arial, sans-serif; color: black; text-align: left; position: relative; top: 20px; left: 20px; right: 20px  }
+pc { font: 20px Calibri, serif; color: black; text-align: center;  }
+a { font: 36px times new roman, sans-serif; color: black; text-align: center; margin: 15; line-height: cm; }
+tp { font: 48px times New Roman, serif; color: black; text-align: center; position: relative; top: 15px; }
+/*Poruszający sie napis*/
+marquee { font: 20px Arial, serif; color: orange; margin-top: 10px}
+
+td, th { border: 1px solid black; text-align: center; empty-cells:hide; }
+table {width: 95%; height: 80%; position: center; margin: auto; margin-top: 50px ; background: linear-gradient(to bottom, #ffffff 0%, #e8f0f9 100%);}
+
+
